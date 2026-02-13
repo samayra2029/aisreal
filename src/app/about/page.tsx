@@ -3,11 +3,11 @@ export const metadata = { title: "About — AI is Real" };
 export default function AboutPage() {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+      <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
         About
       </h1>
 
-      <div className="prose prose-zinc max-w-none dark:prose-invert">
+      <div className="prose max-w-none prose-headings:text-vsc-text prose-headings:font-semibold prose-p:text-vsc-text prose-a:text-vsc-accent prose-strong:text-vsc-text prose-blockquote:border-vsc-border prose-blockquote:text-vsc-text-muted prose-li:text-vsc-text">
         <p>
           <strong>AI is Real</strong> is a collection of curated highlights from
           real conversations with AI. Not tutorials. Not hype. Just the moments

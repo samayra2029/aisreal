@@ -42,14 +42,14 @@ export default async function ConversationPage({
       <div>
         <Link
           href={`/chapters/${slug}`}
-          className="text-sm text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
+          className="text-sm text-vsc-text-muted hover:text-vsc-accent"
         >
           &larr; {chapter?.title}
         </Link>
-        <h1 className="mt-3 text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <h1 className="mt-3 text-3xl font-bold tracking-tight text-vsc-text">
           {conversation.title}
         </h1>
-        <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+        <p className="mt-1 text-sm text-vsc-text-muted">
           {conversation.date}
         </p>
       </div>
@@ -58,11 +58,11 @@ export default async function ConversationPage({
 
       <MarkdownContent html={htmlContent} />
 
-      <div className="rounded-lg border border-zinc-200 bg-zinc-50 p-5 dark:border-zinc-800 dark:bg-zinc-900">
-        <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+      <div className="rounded-lg border border-vsc-border bg-vsc-sidebar p-5">
+        <h3 className="text-sm font-semibold uppercase tracking-wider text-vsc-text-muted">
           Moral of the Story
         </h3>
-        <p className="mt-2 text-lg font-medium italic text-zinc-800 dark:text-zinc-200">
+        <p className="mt-2 text-lg font-medium italic text-vsc-orange">
           &ldquo;{conversation.moral}&rdquo;
         </p>
       </div>
@@ -71,7 +71,7 @@ export default async function ConversationPage({
         {conversation.tags.map((tag) => (
           <span
             key={tag}
-            className="rounded-full bg-zinc-100 px-3 py-1 text-xs text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
+            className="rounded-full bg-vsc-sidebar px-3 py-1 text-xs text-vsc-text-muted"
           >
             {tag}
           </span>

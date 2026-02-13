@@ -33,12 +33,10 @@ export default async function ChapterPage({
       <ChapterNav chapters={chapters} currentSlug={slug} />
 
       <div>
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
           {chapter.title}
         </h1>
-        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          {chapter.description}
-        </p>
+        <p className="mt-2 text-vsc-text-muted">{chapter.description}</p>
       </div>
 
       <div className="space-y-3">
@@ -46,19 +44,17 @@ export default async function ChapterPage({
           <Link
             key={conv.slug}
             href={`/chapters/${slug}/${conv.slug}`}
-            className="block rounded-lg border border-zinc-200 p-5 transition-all hover:border-zinc-400 hover:shadow-sm dark:border-zinc-800 dark:hover:border-zinc-600"
+            className="block rounded-lg border border-vsc-border bg-vsc-card p-5 transition-all hover:border-vsc-accent hover:bg-vsc-card-hover"
           >
-            <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">
-              {conv.title}
-            </h3>
-            <p className="mt-1 text-sm italic text-zinc-500 dark:text-zinc-400">
+            <h3 className="font-semibold text-vsc-text">{conv.title}</h3>
+            <p className="mt-1 text-sm italic text-vsc-orange">
               &ldquo;{conv.moral}&rdquo;
             </p>
             <div className="mt-2 flex flex-wrap gap-1.5">
               {conv.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
+                  className="rounded-full bg-vsc-sidebar px-2.5 py-0.5 text-xs text-vsc-text-muted"
                 >
                   {tag}
                 </span>

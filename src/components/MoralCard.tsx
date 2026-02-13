@@ -16,12 +16,12 @@ export function MoralCard({
   return (
     <Link
       href={`/chapters/${chapterSlug}/${conversationSlug}`}
-      className="block rounded-lg border border-zinc-200 p-5 transition-all hover:border-zinc-400 hover:shadow-md dark:border-zinc-800 dark:hover:border-zinc-600"
+      className="block rounded-lg border border-vsc-border bg-vsc-card p-5 transition-all hover:border-vsc-accent hover:bg-vsc-card-hover"
     >
-      <blockquote className="text-lg font-medium italic text-zinc-800 dark:text-zinc-200">
+      <blockquote className="text-lg font-medium italic text-vsc-orange">
         &ldquo;{moral}&rdquo;
       </blockquote>
-      <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400">
+      <p className="mt-3 text-sm text-vsc-text-muted">
         from &ldquo;{title}&rdquo;
       </p>
     </Link>

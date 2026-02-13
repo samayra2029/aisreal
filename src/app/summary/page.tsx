@@ -10,7 +10,7 @@ export default async function SummaryPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+      <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
         {page.data.title}
       </h1>
       <MarkdownContent html={htmlContent} />

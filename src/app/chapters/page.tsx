@@ -9,10 +9,10 @@ export default function ChaptersPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
           Chapters
         </h1>
-        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
+        <p className="mt-2 text-vsc-text-muted">
           Each chapter groups related conversations around a theme.
         </p>
       </div>
@@ -21,14 +21,14 @@ export default function ChaptersPage() {
         {chapters.map((ch) => (
           <div
             key={ch.slug}
-            className="rounded-lg border border-zinc-200 p-6 dark:border-zinc-800"
+            className="rounded-lg border border-vsc-border bg-vsc-card p-6"
           >
             <Link href={`/chapters/${ch.slug}`}>
-              <h2 className="text-xl font-semibold text-zinc-900 hover:text-zinc-600 dark:text-zinc-100 dark:hover:text-zinc-300">
+              <h2 className="text-xl font-semibold text-vsc-blue hover:text-vsc-accent-hover">
                 {ch.title}
               </h2>
             </Link>
-            <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+            <p className="mt-1 text-sm text-vsc-text-muted">
               {ch.description}
             </p>
             <div className="mt-4 space-y-2">
@@ -36,14 +36,12 @@ export default function ChaptersPage() {
                 <Link
                   key={conv.slug}
                   href={`/chapters/${ch.slug}/${conv.slug}`}
-                  className="block rounded border border-zinc-100 px-4 py-2 text-sm transition-colors hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900"
+                  className="block rounded border border-vsc-border px-4 py-2 text-sm transition-colors hover:bg-vsc-card-hover"
                 >
-                  <span className="font-medium text-zinc-800 dark:text-zinc-200">
+                  <span className="font-medium text-vsc-text">
                     {conv.title}
                   </span>
-                  <span className="ml-2 text-zinc-400 dark:text-zinc-500">
-                    {conv.date}
-                  </span>
+                  <span className="ml-2 text-vsc-text-muted">{conv.date}</span>
                 </Link>
               ))}
             </div>

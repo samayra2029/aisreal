@@ -31,8 +31,8 @@ export default function RootLayout({
       >
         <Nav />
         <main className="mx-auto max-w-3xl px-6 py-10">{children}</main>
-        <footer className="border-t border-zinc-200 dark:border-zinc-800">
-          <div className="mx-auto max-w-3xl px-6 py-6 text-center text-sm text-zinc-500 dark:text-zinc-400">
+        <footer className="border-t border-vsc-border">
+          <div className="mx-auto max-w-3xl px-6 py-6 text-center text-sm text-vsc-text-muted">
             aisreal.com
           </div>
         </footer>
