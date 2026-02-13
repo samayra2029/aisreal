@@ -40,7 +40,7 @@ export default function AboutPage() {
             <strong>Chapters</strong> group related conversations by theme
           </li>
           <li>
-            <strong>The Summary</strong> ties everything together into a
+            <strong>The Story</strong> ties everything together into a
             coherent narrative
           </li>
         </ul>
