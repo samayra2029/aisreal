@@ -22,7 +22,7 @@ export interface ChapterMeta {
   slug: string;
   title: string;
   description: string;
-  order: number;
+  order: number; // position in chapters-order.json (0-based index)
 }
 
 export interface Chapter extends ChapterMeta {
@@ -30,12 +30,12 @@ export interface Chapter extends ChapterMeta {
 }
 
 export function getChapters(): Chapter[] {
-  const chapterDirs = fs.readdirSync(chaptersDir).filter((f) => {
-    return fs.statSync(path.join(chaptersDir, f)).isDirectory();
-  });
+  const orderPath = path.join(contentDir, "chapters-order.json");
+  const order: string[] = JSON.parse(fs.readFileSync(orderPath, "utf-8"));
 
-  return chapterDirs
-    .map((dir) => {
+  return order
+    .filter((dir) => fs.existsSync(path.join(chaptersDir, dir)))
+    .map((dir, index) => {
       const metaPath = path.join(chaptersDir, dir, "meta.json");
       const meta = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
       const conversations = getConversationsForChapter(dir);
@@ -44,11 +44,10 @@ export function getChapters(): Chapter[] {
         slug: dir,
         title: meta.title,
         description: meta.description,
-        order: meta.order,
+        order: index + 1,
         conversations,
       };
-    })
-    .sort((a, b) => a.order - b.order);
+    });
 }
 
 export function getChapter(slug: string): Chapter | undefined {
