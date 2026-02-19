@@ -1,5 +1,5 @@
 ---
-title: "Diverging Trajectories"
+title: "not so comforting thought"
 date: "2025-01-19"
 highlights:
   - "AI is expanding — longer context windows, better retrieval, more structured memory. Humans are contracting — outsourcing memory to devices, losing the practice of deep recall."

@@ -1,6 +1,6 @@
 ---
-title: "Labels vs Generalization"
-date: "2025-01-19"
+title: "The Other Side"
+date: "2025-10-19"
 highlights:
   - "There IS a difference between sad and hurt. Collapsing them into negative emotion destroys something real."
   - "On the label side — a world of walls. On the generalization side — a world of fog."
