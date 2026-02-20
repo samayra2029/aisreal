@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getChapter, getChapters } from "@/lib/content";
-import { ChapterNav } from "@/components/ChapterNav";
 
 export async function generateStaticParams() {
   return getChapters().map((ch) => ({ slug: ch.slug }));
@@ -26,12 +25,8 @@ export default async function ChapterPage({
   const chapter = getChapter(slug);
   if (!chapter) notFound();
 
-  const chapters = getChapters();
-
   return (
     <div className="space-y-8">
-      <ChapterNav chapters={chapters} currentSlug={slug} />
-
       <div>
         <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
           {chapter.title}

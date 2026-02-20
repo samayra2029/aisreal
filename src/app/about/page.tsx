@@ -21,6 +21,12 @@ export default function AboutPage() {
           moments, organizes them into chapters, and distills the wisdom into
           morals you can actually use.
         </p>
+        <p>
+          The world is split between AI hype and AI fear. Both sides are loud.
+          Neither is listening. This project doesn&rsquo;t explain AI — it
+          holds up a mirror. The AI anchor isn&rsquo;t a limitation —
+          it&rsquo;s distribution. The human insight is the payload.
+        </p>
 
         <h2>How it works</h2>
         <ul>

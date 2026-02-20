@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Nav } from "@/components/Nav";
+import { ChapterNav } from "@/components/ChapterNav";
+import { getChapters } from "@/lib/content";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,7 +32,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
-        <main className="mx-auto max-w-3xl px-6 py-10">{children}</main>
+        <main className="mx-auto max-w-3xl px-6 py-10">
+          <ChapterNav chapters={getChapters()} />
+          <div className="mt-8">{children}</div>
+        </main>
         <footer className="border-t border-vsc-border">
           <div className="mx-auto max-w-3xl px-6 py-6 text-center text-sm text-vsc-text-muted">
             aisreal.com
