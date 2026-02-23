@@ -1,10 +1,8 @@
 ---
-title: "Are We Different?"
-date: "2025-01-19"
+title: "It started before"
+date: "2025-12-29"
 highlights:
   - "AI outsources thinking. Social media outsourced *being*. And we barely noticed because it felt like connection."
-  - "The outrage about AI feels sudden, but the underlying movement — humans progressively handing over inner capacities to external systems — has been underway for years."
-  - "People are alarmed about AI taking their thinking while barely questioning that social media already reshaped their worldview. The house was already being renovated from the inside."
   - "The power was always in the individual. The question was never really about the technology. It was always about whether people would stay home inside themselves or keep moving out."
 moral: "We were outsourcing our sense of self long before AI arrived — social media just made it feel like self-expression. AI didn't start this journey. It just made the pattern impossible to ignore."
 tags: ["social-media", "identity", "outsourcing", "belief", "values"]

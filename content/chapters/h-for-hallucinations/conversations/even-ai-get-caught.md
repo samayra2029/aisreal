@@ -3,7 +3,6 @@ title: "Even AI Get Caught"
 date: "2026-02-09"
 highlights:
   - "When something in AI looks unfamiliar, the default human reaction is to make it other, make it wrong, make it scary."
-  - "Someone chose the word 'hallucination' and that label created a wall. Now everyone on one side of the wall sees a broken machine, when they could be seeing a mirror."
   - "These systems work similarly, and people haven't noticed yet."
 moral: "These systems work similarly, and people haven't noticed yet."
 tags: ["hallucination", "naming", "mirror", "similarity"]

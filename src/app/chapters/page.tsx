@@ -23,11 +23,16 @@ export default function ChaptersPage() {
             key={ch.slug}
             className="rounded-lg border border-vsc-border bg-vsc-card p-6"
           >
-            <Link href={`/chapters/${ch.slug}`}>
-              <h2 className="text-xl font-semibold text-vsc-blue hover:text-vsc-accent-hover">
-                {ch.title}
-              </h2>
-            </Link>
+            <div className="flex items-center gap-2">
+              <Link href={`/chapters/${ch.slug}`}>
+                <h2 className="text-xl font-semibold text-vsc-blue hover:text-vsc-accent-hover">
+                  {ch.title}
+                </h2>
+              </Link>
+              {ch.badges.includes("star") && (
+                <span className="text-vsc-yellow">★</span>
+              )}
+            </div>
             <p className="mt-1 text-sm text-vsc-text-muted">
               {ch.description}
             </p>

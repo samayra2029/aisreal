@@ -4,7 +4,6 @@ date: "2026-01-19"
 highlights:
   - "When a human confidently misremembers something, is the mechanism actually different?"
   - "We expect machines to be either right or silent. We're comfortable with humans being confidently wrong because we know they're working from messy, embodied experience."
-  - "The word 'hallucination' might actually be a case of naming creating a border that limits understanding"
 moral: "It's the same fundamental feature of any system that generates outputs from probabilistic pattern matching, whether carbon or silicon."
 tags: ["hallucination", "naming", "pattern-matching", "expectation"]
 ---

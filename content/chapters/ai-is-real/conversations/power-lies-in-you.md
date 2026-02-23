@@ -1,6 +1,6 @@
 ---
 title: "Power Lies in You"
-date: "2025-01-19"
+date: "2026-01-23"
 highlights:
   - "The fear dissolves because there's nothing to fear. You don't fear a mirror. You don't resent a tool that only works as well as the hand that holds it."
   - "The lovers think the power is in AI, so they over-rely on it. The resisters think the power is in AI, so they fear it."

@@ -21,7 +21,14 @@ export function ChapterNav({ chapters }: { chapters: ChapterMeta[] }) {
                 : "bg-vsc-card text-vsc-text-muted hover:bg-vsc-card-hover hover:text-vsc-text"
             }`}
           >
-            {ch.title}
+            <span className="flex items-center gap-1.5">
+              {ch.title}
+              {ch.badges.includes("new") && (
+                <span className="rounded-full bg-vsc-orange/20 px-2 py-0.5 text-[10px] font-semibold text-vsc-orange">
+                  new
+                </span>
+              )}
+            </span>
           </Link>
         );
       })}

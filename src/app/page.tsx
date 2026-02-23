@@ -41,9 +41,14 @@ export default function Home() {
               href={`/chapters/${ch.slug}`}
               className="group rounded-lg border border-vsc-border bg-vsc-card p-5 transition-all hover:border-vsc-accent hover:bg-vsc-card-hover"
             >
-              <h3 className="font-semibold text-vsc-blue group-hover:text-vsc-accent-hover">
-                {ch.title}
-              </h3>
+              <div className="flex items-center gap-2">
+                <h3 className="font-semibold text-vsc-blue group-hover:text-vsc-accent-hover">
+                  {ch.title}
+                </h3>
+                {ch.badges.includes("star") && (
+                  <span className="text-vsc-yellow">★</span>
+                )}
+              </div>
               <p className="mt-1 text-sm text-vsc-text-muted">
                 {ch.description}
               </p>

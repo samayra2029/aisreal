@@ -23,6 +23,7 @@ export interface ChapterMeta {
   title: string;
   description: string;
   order: number; // position in chapters-order.json (0-based index)
+  badges: string[]; // e.g., ["new", "star"]
 }
 
 export interface Chapter extends ChapterMeta {
@@ -31,20 +32,29 @@ export interface Chapter extends ChapterMeta {
 
 export function getChapters(): Chapter[] {
   const orderPath = path.join(contentDir, "chapters-order.json");
-  const order: string[] = JSON.parse(fs.readFileSync(orderPath, "utf-8"));
+  const orderData: Array<string | { slug: string; badges: string[] }> = JSON.parse(
+    fs.readFileSync(orderPath, "utf-8")
+  );
 
-  return order
-    .filter((dir) => fs.existsSync(path.join(chaptersDir, dir)))
-    .map((dir, index) => {
-      const metaPath = path.join(chaptersDir, dir, "meta.json");
+  return orderData
+    .map((item) => {
+      // Support both old format (string) and new format (object)
+      const slug = typeof item === "string" ? item : item.slug;
+      const badges = typeof item === "string" ? [] : item.badges || [];
+      return { slug, badges };
+    })
+    .filter(({ slug }) => fs.existsSync(path.join(chaptersDir, slug)))
+    .map(({ slug, badges }, index) => {
+      const metaPath = path.join(chaptersDir, slug, "meta.json");
       const meta = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
-      const conversations = getConversationsForChapter(dir);
+      const conversations = getConversationsForChapter(slug);
 
       return {
-        slug: dir,
+        slug,
         title: meta.title,
         description: meta.description,
         order: index + 1,
+        badges,
         conversations,
       };
     });

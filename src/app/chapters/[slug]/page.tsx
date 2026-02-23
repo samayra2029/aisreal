@@ -28,9 +28,14 @@ export default async function ChapterPage({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
-          {chapter.title}
-        </h1>
+        <div className="flex items-center gap-2">
+          <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
+            {chapter.title}
+          </h1>
+          {chapter.badges.includes("star") && (
+            <span className="text-2xl text-vsc-yellow">★</span>
+          )}
+        </div>
         <p className="mt-2 text-vsc-text-muted">{chapter.description}</p>
       </div>
 

@@ -1,12 +1,30 @@
 [
-  "ai-is-real",
-  "ai-n-i",
-  "social-media-vs-ai",
-  "h-for-hallucinations",
-  "how-it-started",
-  "ai-personalities",
-  "belief-fact",
-  "carbon-silicon",
-  "context-or-memory",
-  "naming-is-not-explaining"
+  {
+    "slug": "ai-n-i",
+    "badges": ["new", "star"]
+  },
+  {
+    "slug": "ai-is-real",
+    "badges": ["star"]
+  },
+  {
+    "slug": "social-media-n-ai",
+    "badges": []
+  },
+  {
+    "slug": "h-for-hallucinations",
+    "badges": ["star"]
+  },
+  {
+    "slug": "ai-personalities",
+    "badges": ["star"]
+  },
+  {
+    "slug": "carbon-silicon",
+    "badges": []
+  },
+  {
+    "slug": "context-or-memory",
+    "badges": []
+  }
 ]

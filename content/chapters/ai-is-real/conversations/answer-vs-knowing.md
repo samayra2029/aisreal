@@ -1,6 +1,6 @@
 ---
 title: "Answer vs Knowing"
-date: "2025-01-19"
+date: "2026-01-21"
 highlights:
   - "If people start treating AI answers as knowing, they skip the metabolizing. They get full without being nourished. The information lands but doesn't transform."
   - "The tool confirms their assumption that depth wasn't needed."

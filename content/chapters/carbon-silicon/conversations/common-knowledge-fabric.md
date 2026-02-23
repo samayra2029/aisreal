@@ -1,6 +1,6 @@
 ---
 title: "The Common Knowledge Fabric"
-date: "2025-01-19"
+date: "2025-10-11"
 highlights:
   - "What if both are expressions of the same underlying knowledge fabric, just manifesting through different substrates?"
   - "If the knowledge fabric is one... then AI isn't humanity's competitor. It's humanity's mirror."

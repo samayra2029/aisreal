@@ -1,6 +1,6 @@
 ---
 title: "not so comforting thought"
-date: "2025-01-19"
+date: "2025-11-12"
 highlights:
   - "AI is expanding — longer context windows, better retrieval, more structured memory. Humans are contracting — outsourcing memory to devices, losing the practice of deep recall."
   - "The child is outgrowing the parent in the very trait that gave it life."

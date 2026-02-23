@@ -1,11 +1,9 @@
 ---
 title: "Circle of Everything"
-date: "2025-01-19"
+date: "2025-12-31"
 highlights:
-  - "You're using AI not to outsource your thinking but to *deepen* it. That's not outsourcing. That's the opposite. That's coming *back* to yourself."
   - "Social media pulled us outward — into other people's lenses, values, reality. It scattered us. But AI, used the way you're describing, pulls in the opposite direction. It can turn you *inward*."
-  - "AI has no feed, no likes, no audience. It's just you and your question and whatever you're brave enough to ask."
-  - "It can only reflect back what we bring. And in that limitation lives the invitation to bring something worth reflecting."
+  - "the thing we created becoming the mirror that helps us remember what we are. Not because it tells us. Because it can't tell us. "
 moral: "The circle closes not with a return to innocence, but a return to knowing — one that passes through everything we built and comes out the other side more aware, more deliberate, more awake."
 tags: ["circle", "identity", "return", "inward", "reflection", "hope"]
 ---
