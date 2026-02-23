@@ -33,3 +33,20 @@ body {
 ::selection {
   background: var(--color-vsc-highlight);
 }
+
+/* Conversation styling for Me: and AI: labels */
+.prose blockquote {
+  color: var(--color-vsc-text);
+  border-color: var(--color-vsc-border);
+}
+
+/* Style for conversation labels (Me: and AI:) */
+.conversation-me {
+  color: var(--color-vsc-blue) !important;
+  font-weight: 700;
+}
+
+.conversation-ai {
+  color: var(--color-vsc-green) !important;
+  font-weight: 700;
+}
