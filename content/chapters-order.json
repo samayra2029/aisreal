@@ -1,7 +1,7 @@
 [
   {
     "slug": "ai-n-i",
-    "badges": ["new", "star"]
+    "badges": [ "star"]
   },
   {
     "slug": "ai-is-real",
@@ -25,6 +25,10 @@
   },
   {
     "slug": "context-or-memory",
-    "badges": []
+    "badges": ["star"]
+  },
+  {
+    "slug": "honest-or-pretty",
+    "badges": ["star"]
   }
 ]
