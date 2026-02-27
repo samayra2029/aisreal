@@ -9,17 +9,31 @@ export function MarkdownContent({ html }: { html: string }) {
     if (contentRef.current) {
       // Find all blockquotes and style Me: and AI: labels
       const blockquotes = contentRef.current.querySelectorAll("blockquote");
+      let lastAiBlockquote: Element | null = null;
       blockquotes.forEach((blockquote) => {
-        const firstStrong = blockquote.querySelector("strong:first-child");
+        const firstStrong = blockquote.querySelector("p strong:first-child");
         if (firstStrong) {
-          const text = firstStrong.textContent;
+          const text = firstStrong.textContent?.trim();
           if (text === "Me:") {
             firstStrong.classList.add("conversation-me");
+            blockquote.classList.add("blockquote-me");
           } else if (text === "AI:") {
             firstStrong.classList.add("conversation-ai");
+            blockquote.classList.add("blockquote-ai");
+            lastAiBlockquote = blockquote;
           }
         }
       });
+
+      if (lastAiBlockquote) {
+        const already = (lastAiBlockquote as Element).nextElementSibling;
+        if (!already || !already.classList.contains("conversation-continues")) {
+          const divider = document.createElement("p");
+          divider.textContent = "AI continues...";
+          divider.className = "conversation-continues";
+          (lastAiBlockquote as Element).insertAdjacentElement("afterend", divider);
+        }
+      }
     }
   }, [html]);
 

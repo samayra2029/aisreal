@@ -58,6 +58,24 @@ export default async function ConversationPage({
 
       <MarkdownContent html={htmlContent} />
 
+      {(() => {
+        const convList = chapter?.conversations ?? [];
+        const currentIndex = convList.findIndex((c) => c.slug === convSlug);
+        const next = convList[currentIndex + 1];
+        if (!next) return null;
+        return (
+          <Link
+            href={`/chapters/${slug}/${next.slug}`}
+            className="block rounded-lg border border-vsc-border bg-vsc-card p-4 transition-all hover:border-vsc-accent hover:bg-vsc-card-hover"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wider text-vsc-text-muted">
+              Next in this chapter
+            </p>
+            <p className="mt-1 font-medium text-vsc-text">{next.title} →</p>
+          </Link>
+        );
+      })()}
+
       <div className="rounded-lg border border-vsc-border bg-vsc-sidebar p-5">
         <h3 className="text-sm font-semibold uppercase tracking-wider text-vsc-text-muted">
           Moral of the Story

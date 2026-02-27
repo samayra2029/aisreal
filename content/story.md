@@ -1,6 +1,3 @@
-title: "The Mirror"
-description: "What started as a question about AI turned into something else entirely."
-
 
 ## The Story
 
