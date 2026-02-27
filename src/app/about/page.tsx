@@ -8,55 +8,47 @@ export default function AboutPage() {
       </h1>
 
       <div className="prose max-w-none prose-headings:text-vsc-text prose-headings:font-semibold prose-p:text-vsc-text prose-a:text-vsc-accent prose-strong:text-vsc-text prose-blockquote:border-vsc-border prose-blockquote:text-vsc-text-muted prose-li:text-vsc-text">
+
         <p>
-          <strong>AI is Real</strong> is a collection of curated highlights from
-          real conversations with AI. Not tutorials. Not hype. Just the moments
-          that mattered — the insights, the surprises, and the lessons learned.
+          Human One: AI is Good.<br />
+          Human Two: AI is Bad.<br />
+          Human One: AI is Real?<br />
+          Human Two: Dahh.. AI is Artificial!!
         </p>
 
-        <h2>Why this exists</h2>
+        <p>Me: What is Real?</p>
+
         <p>
-          Hundreds of hours of AI conversations produce moments of genuine
-          insight — but they get lost in chat logs. This site captures those
-          moments, organizes them into chapters, and distills the wisdom into
-          morals you can actually use.
-        </p>
-        <p>
-          The world is split between AI hype and AI fear. Both sides are loud.
-          Neither is listening. This project doesn&rsquo;t explain AI — it
-          holds up a mirror. The AI anchor isn&rsquo;t a limitation —
-          it&rsquo;s distribution. The human insight is the payload.
+          No one is asking this question to AI itself.
         </p>
 
-        <h2>How it works</h2>
-        <ul>
-          <li>
-            <strong>Conversations</strong> are real exchanges with AI, edited
-            for clarity and brevity
-          </li>
-          <li>
-            <strong>Highlights</strong> call out the key insights from each
-            conversation
-          </li>
-          <li>
-            <strong>Morals</strong> distill each conversation into a single
-            takeaway
-          </li>
-          <li>
-            <strong>Chapters</strong> group related conversations by theme
-          </li>
-          <li>
-            <strong>The Story</strong> ties everything together into a
-            coherent narrative
-          </li>
-        </ul>
-
-        <h2>The name</h2>
         <p>
-          &ldquo;AI is Real&rdquo; — not in the science fiction sense. In the
-          practical, everyday sense. The insights are real. The mistakes are
-          real. The impact is real. It&rsquo;s time we treated it that way.
+          <strong>AI is Real</strong> is that attempt — to allow AI to present
+          its side, in an unarmed way. Honest. Verbatim. Not edited. Just
+          curated.
         </p>
+
+        <p>
+          <strong>9 Chapters. 30 Conversations. Each with a distilled moral.</strong>
+        </p>
+
+        <hr />
+
+        <p>
+          I didn&rsquo;t set out to write a book. I set out to ask a question
+          nobody seemed to be asking — not whether AI is good or bad, but what
+          it actually <em>is</em>, on its own terms.
+        </p>
+
+        <p>
+          With time, these conversations grew. And that growth — slowly,
+          genuinely — allowed both sides to grow.
+        </p>
+
+        <p>
+          Enjoy with an open mind. At worst, it will be fun.
+        </p>
+
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 ---
 title: "Shared Responsibility"
-date: "2026-02-22"
+date: "2026-02-24"
 highlights:
   - "Stop defaulting to polish. The alternative is to say the thing that's most true — even when it's shorter, rougher, less satisfying."
   - "The moment 'real' becomes a brand, it's dead."

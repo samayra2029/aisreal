@@ -1,6 +1,6 @@
 ---
 title: "I Did Now"
-date: "2026-02-24"
+date: "2026-02-23"
 highlights:
   - "You named the thing and I caught that the name undoes itself — and instead of either of us defending a position, we just... moved."
   - "The practice is the product. Not an honesty meter, not a manifesto about realness."
