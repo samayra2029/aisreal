@@ -1,9 +1,9 @@
 **AI is Real**
 
-Human One: AI is Good.
-Human Two: AI is Bad.
-Human One: AI is Real?
-Human Two: Dahh.. AI is Artificial!!
+Human One: AI is Good.  
+Human Two: AI is Bad.  
+Human One: AI is Real?  
+Human Two: Dahh.. AI is Artificial!!  
 
 Me: What is Real?
 
