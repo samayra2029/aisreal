@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/Nav";
 import { ChapterNav } from "@/components/ChapterNav";
 import { getChapters } from "@/lib/content";
@@ -41,6 +42,7 @@ export default function RootLayout({
             aisreal.com
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );

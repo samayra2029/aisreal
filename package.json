@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
+    "@vercel/analytics": "^1.6.1",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
     "next-mdx-remote": "^6.0.0",
