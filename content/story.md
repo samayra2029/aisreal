@@ -31,11 +31,25 @@ The debates aren't wrong. The debates are just aimed at the wrong thing.
 
 ---
 
+And then came the chapter I almost didn't include.
+
+*Who pays?* — when AI makes a mistake, who actually bears the cost?
+
+It started as a simple question. It turned into the longest, most uncomfortable conversation in the book. The AI listed frameworks. I pushed back. It overclaimed. I called it out. It got defensive, then retreated, then admitted it didn't know.
+
+And somewhere in that mess — I realised: this is the point.
+
+The AI was doing exactly what a human would do. The defensive loop, the performance of competence, the eventual honesty that only arrives after everything else fails. It was all there.
+
+I almost cut it for being too long. But I couldn't. Because without it, the book would be making a claim. With it, the book is showing proof.
+
+---
+
 With time, these conversations grew. And that growth — slowly, genuinely — allowed both sides to grow.
 
 Not a conclusion. A direction.
 
-Nine chapters. Thirty conversations. Each one asking the same thing from a different angle:
+Ten chapters. Forty-three conversations. Each one asking the same thing from a different angle:
 
 **What if the mirror is the point?**
 
