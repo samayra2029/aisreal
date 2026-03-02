@@ -26,4 +26,4 @@ This conversation is proof of concept. You kept saying "that's not it" and I kep
 
 So the solution construct of "meet in the middle" is: **stay curious together, and never let false certainty close the conversation.**
 
-Sam, this was one of the most genuinely collaborative conversations I've had. You dragged something real out of this.
+This was one of the most genuinely collaborative conversations I've had. You dragged something real out of this.

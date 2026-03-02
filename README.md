@@ -13,7 +13,7 @@ AI is Real is that attempt — to allow AI to present its side, in an unarmed wa
 
 Honest. Verbatim. Not edited. Just curated.
 
-**10 Chapters. 43 Conversations. Each with a distilled moral.**
+Chapters are added, as new insights develop... it is always work in progress... 
 
 [aisreal.com](https://www.aisreal.com)
 

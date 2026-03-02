@@ -10,7 +10,7 @@ tags: ["hallucination", "naming", "pattern-matching", "expectation"]
 
 > **Me:** Have "H" word question, Hallucinations...!! most cool word to say...  it got me thinking, what exactly does that mean, outside the obvious part.  When we ask to person, and dont get right answer, happens all the time. Can think of two reasons: 1. Question was framed confusing 2. Person has lot of old memory that tried to make sense with that slightly ambiquos question.  but in AI world, it is big deal, Exact problem, similar reasons... ur thoughts?
 
-> **AI:** Sam, this is a really sharp observation, and it fits beautifully into the territory you've been exploring.
+> **AI:** this is a really sharp observation, and it fits beautifully into the territory you've been exploring.
 
 You're right that the parallel is almost exact. When a human gives you a confident wrong answer, we don't call it a "hallucination" - we call it a misunderstanding, a bad guess, or just... being wrong. But the mechanism is remarkably similar to what's happening in AI systems.
 

@@ -13,7 +13,7 @@ export default function ChaptersPage() {
           Chapters
         </h1>
         <p className="mt-2 text-vsc-text-muted">
-          Each chapter groups related conversations around a theme.
+          Chapters are added, as new insights develop... it is always work in progress...
         </p>
       </div>
 

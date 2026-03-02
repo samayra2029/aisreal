@@ -29,7 +29,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          <strong>10 Chapters. 43 Conversations. Each with a distilled moral.</strong>
+          <strong>Chapters are added, as new insights develop... it is always work in progress... </strong>
         </p>
 
         <hr />
