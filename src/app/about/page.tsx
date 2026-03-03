@@ -13,7 +13,7 @@ export default function AboutPage() {
           Human One: AI is Good.<br />
           Human Two: AI is Bad.<br />
           Human One: AI is Real?<br />
-          Human Two: Dahh.. AI is Artificial!!
+          Human Two: Duh.. AI is Artificial!!
         </p>
 
         <p>Me: What is Real?</p>
