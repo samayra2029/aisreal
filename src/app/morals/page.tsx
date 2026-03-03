@@ -3,7 +3,7 @@ import { markdownToHtml } from "@/lib/markdown";
 import { MoralCard } from "@/components/MoralCard";
 import { MarkdownContent } from "@/components/MarkdownContent";
 
-export const metadata = { title: "Morals — AI is Real" };
+export const metadata = { title: "Morals" };
 
 export default async function MoralsPage() {
   const morals = getAllMorals();

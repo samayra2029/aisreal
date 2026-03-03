@@ -13,7 +13,11 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   const chapter = getChapter(slug);
-  return { title: chapter ? `${chapter.title} — AI is Real` : "Not Found" };
+  if (!chapter) return { title: "Not Found" };
+  return {
+    title: chapter.title,
+    description: chapter.description,
+  };
 }
 
 export default async function ChapterPage({

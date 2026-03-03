@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getChapters } from "@/lib/content";
 
-export const metadata = { title: "Chapters — AI is Real" };
+export const metadata = { title: "Chapters" };
 
 export default function ChaptersPage() {
   const chapters = getChapters();

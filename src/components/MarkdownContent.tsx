@@ -7,9 +7,8 @@ export function MarkdownContent({ html }: { html: string }) {
 
   useEffect(() => {
     if (contentRef.current) {
-      // Find all blockquotes and style Me: and AI: labels
       const blockquotes = contentRef.current.querySelectorAll("blockquote");
-      let lastAiBlockquote: Element | null = null;
+      let firstAiBlockquote: Element | null = null;
       blockquotes.forEach((blockquote) => {
         const firstStrong = blockquote.querySelector("p strong:first-child");
         if (firstStrong) {
@@ -20,18 +19,18 @@ export function MarkdownContent({ html }: { html: string }) {
           } else if (text === "AI:") {
             firstStrong.classList.add("conversation-ai");
             blockquote.classList.add("blockquote-ai");
-            lastAiBlockquote = blockquote;
+            if (!firstAiBlockquote) firstAiBlockquote = blockquote;
           }
         }
       });
 
-      if (lastAiBlockquote) {
-        const already = (lastAiBlockquote as Element).nextElementSibling;
+      if (firstAiBlockquote) {
+        const already = (firstAiBlockquote as Element).nextElementSibling;
         if (!already || !already.classList.contains("conversation-continues")) {
-          const divider = document.createElement("p");
-          divider.textContent = "AI continues...";
-          divider.className = "conversation-continues";
-          (lastAiBlockquote as Element).insertAdjacentElement("afterend", divider);
+          const label = document.createElement("p");
+          label.textContent = "AI continues...";
+          label.className = "conversation-continues";
+          (firstAiBlockquote as Element).insertAdjacentElement("afterend", label);
         }
       }
     }

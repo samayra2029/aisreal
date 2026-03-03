@@ -2,7 +2,7 @@ import { getPageContent } from "@/lib/content";
 import { markdownToHtml } from "@/lib/markdown";
 import { MarkdownContent } from "@/components/MarkdownContent";
 
-export const metadata = { title: "Story — AI is Real" };
+export const metadata = { title: "Story" };
 
 export default async function StoryPage() {
   const page = getPageContent("story.md");

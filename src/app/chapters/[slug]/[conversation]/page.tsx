@@ -22,7 +22,11 @@ export async function generateMetadata({
 }) {
   const { slug, conversation: convSlug } = await params;
   const conv = getConversation(slug, convSlug);
-  return { title: conv ? `${conv.title} — AI is Real` : "Not Found" };
+  if (!conv) return { title: "Not Found" };
+  return {
+    title: conv.title,
+    description: conv.moral,
+  };
 }
 
 export default async function ConversationPage({

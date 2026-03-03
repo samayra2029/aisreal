@@ -17,9 +17,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI is Real",
+  title: {
+    default: "AI is Real: Curated AI Conversations on Being and Philosophy",
+    template: "%s — AI is Real",
+  },
   description:
-    "Curated highlights from AI conversations — organized into chapters with morals and insights.",
+    "A curated collection of verbatim AI conversations exploring the mirror between human and machine intelligence.",
 };
 
 export default function RootLayout({

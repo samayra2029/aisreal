@@ -53,19 +53,17 @@ body {
 
 /* AI continues label */
 .conversation-continues {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: var(--color-vsc-green) !important;
-  opacity: 0.6;
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+  opacity: 0.85;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   font-style: italic;
 }
 
 /* Blockquote border colors by speaker */
 .prose blockquote.blockquote-me {
   border-left-color: var(--color-vsc-blue) !important;
-  background-color: rgba(86, 156, 214, 0.06);
-  border-radius: 0 4px 4px 0;
 }
 
 .prose blockquote.blockquote-ai {
