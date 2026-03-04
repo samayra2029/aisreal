@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s — AI is Real",
   },
   description:
-    "A curated collection of verbatim AI conversations exploring the mirror between human and machine intelligence.",
+    "Verbatim AI conversations exploring what AI actually is, on its own terms. No system prompts. No hidden context. Just the question.",
 };
 
 export default function RootLayout({
