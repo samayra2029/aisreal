@@ -1,11 +1,15 @@
 [
   {
     "slug": "ai-n-i",
-    "badges": [ "star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "ai-is-real",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "social-media-n-ai",
@@ -13,11 +17,15 @@
   },
   {
     "slug": "h-for-hallucinations",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "ai-personalities",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "carbon-silicon",
@@ -25,30 +33,50 @@
   },
   {
     "slug": "context-or-memory",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "honest-or-pretty",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "producer-consumer",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "who-pays",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "curse-of-brilliance",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "what-r-we-building",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
   },
   {
     "slug": "left-brain-right-brain",
-    "badges": ["star"]
+    "badges": [
+      "star"
+    ]
+  },
+  {
+    "slug": "lets-talk-prompt",
+    "badges": [
+      "star"
+    ]
   }
 ]
