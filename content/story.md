@@ -49,7 +49,7 @@ With time, these conversations grew. And that growth — slowly, genuinely — a
 
 Not a conclusion. A direction.
 
-Ten chapters. Forty-three conversations. Each one asking the same thing from a different angle:
+Some conversations surprised me. Some made me smile. Some ended in a place I didn't expect when they started.
 
 **What if the mirror is the point?**
 
