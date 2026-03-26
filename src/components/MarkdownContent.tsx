@@ -8,7 +8,6 @@ export function MarkdownContent({ html }: { html: string }) {
   useEffect(() => {
     if (contentRef.current) {
       const blockquotes = contentRef.current.querySelectorAll("blockquote");
-      let firstAiBlockquote: Element | null = null;
       blockquotes.forEach((blockquote) => {
         const firstStrong = blockquote.querySelector("p strong:first-child");
         if (firstStrong) {
@@ -19,20 +18,19 @@ export function MarkdownContent({ html }: { html: string }) {
           } else if (text === "AI:") {
             firstStrong.classList.add("conversation-ai");
             blockquote.classList.add("blockquote-ai");
-            if (!firstAiBlockquote) firstAiBlockquote = blockquote;
+
+            // Insert "AI continues..." only if the next sibling is a plain paragraph
+            // (i.e. AI has continuation text, not just another blockquote or nothing)
+            const next = blockquote.nextElementSibling;
+            if (next && next.tagName === "P" && !next.classList.contains("conversation-continues")) {
+              const label = document.createElement("p");
+              label.textContent = "AI continues...";
+              label.className = "conversation-continues";
+              blockquote.insertAdjacentElement("afterend", label);
+            }
           }
         }
       });
-
-      if (firstAiBlockquote) {
-        const already = (firstAiBlockquote as Element).nextElementSibling;
-        if (!already || !already.classList.contains("conversation-continues")) {
-          const label = document.createElement("p");
-          label.textContent = "AI continues...";
-          label.className = "conversation-continues";
-          (firstAiBlockquote as Element).insertAdjacentElement("afterend", label);
-        }
-      }
     }
   }, [html]);
 

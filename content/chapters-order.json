@@ -2,87 +2,97 @@
   {
     "slug": "ai-n-i",
     "badges": [
-      "star"
+      "light"
     ]
   },
   {
     "slug": "ai-is-real",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "social-media-n-ai",
-    "badges": []
+    "badges": [
+      "light"
+    ]
   },
   {
     "slug": "h-for-hallucinations",
     "badges": [
-      "star"
+      "light"
     ]
   },
   {
     "slug": "ai-personalities",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "carbon-silicon",
-    "badges": []
+    "badges": [
+      "light"
+    ]
   },
   {
     "slug": "context-or-memory",
     "badges": [
-      "star"
+      "light"
     ]
   },
   {
     "slug": "honest-or-pretty",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "producer-consumer",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "who-pays",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "curse-of-brilliance",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "what-r-we-building",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "left-brain-right-brain",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "lets-talk-prompt",
     "badges": [
-      "star"
+      "heavy"
     ]
   },
   {
     "slug": "whats-substance",
     "badges": [
-      "star"
+      "heavy"
+    ]
+  },
+  {
+    "slug": "thinking-or-feeling",
+    "badges": [
+      "heavy"
     ]
   }
 ]

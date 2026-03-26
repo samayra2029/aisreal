@@ -45,8 +45,11 @@ export default function Home() {
                 <h3 className="font-semibold text-vsc-blue group-hover:text-vsc-accent-hover">
                   {ch.title}
                 </h3>
-                {ch.badges.includes("star") && (
-                  <span className="text-vsc-yellow">★</span>
+                {ch.badges.includes("light") && (
+                  <span className="text-xs text-vsc-text-muted opacity-60">light read</span>
+                )}
+                {ch.badges.includes("heavy") && (
+                  <span className="text-xs text-vsc-text-muted">heavy read</span>
                 )}
               </div>
               <p className="mt-1 text-sm text-vsc-text-muted">

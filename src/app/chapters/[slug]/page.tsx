@@ -36,8 +36,11 @@ export default async function ChapterPage({
           <h1 className="text-3xl font-bold tracking-tight text-vsc-text">
             {chapter.title}
           </h1>
-          {chapter.badges.includes("star") && (
-            <span className="text-2xl text-vsc-yellow">★</span>
+          {chapter.badges.includes("light") && (
+            <span className="text-sm text-vsc-text-muted opacity-60">light read</span>
+          )}
+          {chapter.badges.includes("heavy") && (
+            <span className="text-sm text-vsc-text-muted">heavy read</span>
           )}
         </div>
         <p className="mt-2 text-vsc-text-muted">{chapter.description}</p>
