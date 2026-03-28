@@ -69,3 +69,33 @@ body {
 .prose blockquote.blockquote-ai {
   border-left-color: var(--color-vsc-green) !important;
 }
+
+/* AI Speaks page */
+.ai-speaks-content h2 {
+  color: var(--color-vsc-blue) !important;
+  border-left: 3px solid var(--color-vsc-blue);
+  padding-left: 0.75rem;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.ai-speaks-content h3 {
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.ai-speaks-content hr {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  opacity: 0.3;
+}
+
+.ai-speaks-content ul {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.ai-speaks-content li {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+}
