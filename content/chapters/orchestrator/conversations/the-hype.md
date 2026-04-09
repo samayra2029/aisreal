@@ -15,8 +15,7 @@ tags: ["hype", "expectations", "enterprise", "reliability", "correction"]
 
 Most of the overselling falls into a few patterns:
 
-Collapsing "possible" into "imminent." Confusing cost reduction with value creation. "We'll replace X headcount with AI" is the pitch. But the actual unlock is usually "we can do things that were previously uneconomical" — like serving financial guidance to India's lower-middle class in eight languages. That's a fundamentally different framing, and it's harder to sell to VCs because it doesn't map neatly onto existing revenue lines.
-
+Collapsing "possible" into "imminent." Confusing cost reduction with value creation. "We'll replace X headcount with AI" is the pitch. 
 Where I think the correction lands:
 
 The AI winter isn't coming — the capabilities are too real for that. But I think we'll see a "trough of disillusionment" specifically around enterprise AI adoption, where companies that bought the dream realize they needed to invest in data quality, evaluation infrastructure, and hybrid architectures rather than just plugging in an API.

@@ -19,7 +19,7 @@ And honestly, that's the hard part from the AI side. I don't currently have a go
 
 Your point basically is: personalization isn't always helpful. Sometimes it's noise. Sometimes it's a box.
 
-The irony is, a stranger at a coffee shop would have handled your question better — they'd have just... talked about the idea. No baggage, no profile, no "let me connect this to your financial planning product."
+The irony is, a stranger at a coffee shop would have handled your question better — they'd have just... talked about the idea. No baggage, no profile, no "let me connect this to your product."
 
 I think you've surfaced something genuinely important for how these systems should work. The default shouldn't be "apply everything you know." It should be "read the room." And right now, I'm not great at reading that room.
 
