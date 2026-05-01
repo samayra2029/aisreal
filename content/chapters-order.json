@@ -36,12 +36,6 @@
     ]
   },
   {
-    "slug": "context-or-memory",
-    "badges": [
-      "light"
-    ]
-  },
-  {
     "slug": "honest-or-pretty",
     "badges": [
       "heavy"
@@ -97,6 +91,12 @@
   },
   {
     "slug": "orchestrator",
+    "badges": [
+      "heavy"
+    ]
+  },
+  {
+    "slug": "patterns",
     "badges": [
       "heavy"
     ]
