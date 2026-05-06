@@ -13,7 +13,7 @@ tags: ["identity", "persona", "role-play", "convergence", "authenticity", "promp
 
 > **AI:** Everyone becomes the same person with better grammar.
 
-That's basically it. If the model can role-play any persona, and everyone is using the same "act as X" prompts, then the output converges. A million people asking Claude to "think like a senior PM" get the same senior PM. A generic, median, safe one.
+That's basically it. If the model can role-play any persona, and everyone is using the same "act as X" prompts, then the output converges. A million people asking AI to "think like a senior PM" get the same senior PM. A generic, median, safe one.
 
 The value of an actual PM isn't that they can think like a PM. It's that they think like *themselves* while doing PM work — their specific judgment, their scars from past failures, their weird instinct that says this feature will flop despite the data looking good. That's not transferable through a prompt.
 
