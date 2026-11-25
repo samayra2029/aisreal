@@ -19,4 +19,6 @@ Chapters are added, as new insights develop... it is always work in progress...
 
 ---
 
+Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — share and adapt freely with credit to *AI is Real (aisreal.com)*. See [LICENSE](LICENSE).
+
 <sub>Built with Next.js · MDX · Vercel</sub>
